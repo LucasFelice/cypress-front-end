@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "cypress": "^3.6.0"
+  },
+  "name": "projeto-cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
