@@ -344,3 +344,4 @@ allure-results/
 allure-history/
 cypress/parallel-weights.json
 multi-reporter-config.json
+node_modules
