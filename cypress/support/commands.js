@@ -1,6 +1,17 @@
 /// <reference types="cypress" />
 
 import credentials from "./credentials";
+import hp from "./helpers"
+
+// COMMANDS - LOGIN //
+Cypress.Commands.add(
+  "doLogin",
+  (email, password) => {
+    hp.UI.waitForTypeText("#email", email)
+    hp.UI.waitForTypeText("#password", password)
+    hp.UI.waitForClick("[data-testid=entrar]")
+  },
+);
 
 // COMMANDS - REGISTER //
 Cypress.Commands.add(
